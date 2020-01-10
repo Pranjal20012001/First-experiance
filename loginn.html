@@ -1,0 +1,48 @@
+<html>
+<head>
+
+
+<link rel ="stylesheet" href ="first.css">
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+<div class="login-page">
+<div class="form">
+
+<form class="register-form" >
+<h1>Registration page</h1>	
+
+<form id="register-form" method = "post" >
+ <input id="name" type="text" placeholder="Name" required value=""/>
+ <input id="pw" type="password" placeholder="Password" required value=""/>
+ <input id="rgstr_btn" type="submit" value="Register"  onClick="store()"/>
+ <p class="message">Already Registered? <a href="#">Login</a></p>
+ </form>
+ </form>
+	
+<form class="login-form" > 
+<h1>Login page</h1>		
+<form id="login-form"> 
+ <input id="userName" type="text" placeholder="Enter Username" required value=""/>
+ <input id="userPw" type="password" placeholder="Enter Password" required value=""/>
+ <input id="login_btn" type="submit" value="Login" onClick="check()"/> 
+ <p class="message">Not Registered? <a href="#">Register</a></p>
+ </form>
+ </form>
+ 
+</div>
+</div>
+<script>
+$('.message a').click(function(){
+$('form').animate({height: "toggle" , opacity: "toggle"}, "slow");
+});
+
+</script>
+
+
+  <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+ <script type="text/javascript" language="javascript" src="first.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+body{
+height: 100vh;
+background-position: cover;
+background-size: cover;
+background-color: #a294f7;
+
+}
+.login-page{
+width: 360px;
+padding: 10% 0 0;
+margin: auto;
+}
+h1{
+	color: #a294f7;
+}
+.form{
+	position: relative;
+	background: #000;
+	max-width: 360px;
+	padding: 45px;
+	text-align: center;
+	margin: 0 auto 100px;
+	z-index: 1;
+}
+.form input{
+	font-family: sans-sarif;
+	background: #5fedc7;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	cursor: pointer;
+	color: #000;
+	
+}
+.form button:hover , .form button:active{
+	background: #43A047;
+}
+ .form .message{
+	 margin: 15px 0 0;
+	 color: aliceblue;
+	 font-size:12px;
+ }
+ 
+ .form .message a{
+	 color:#4CAF50;
+ }
+.form .register-form{
+	display:none;
+}
+
