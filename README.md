@@ -1,7 +1,7 @@
 # Personal information
-**Name**  Pranjal Mishra
-- Studying in IIT(ISM) Dhanbad 
-**Home Town** Jaunpur , Uttar Pradesh , India
+**Name** = Pranjal Mishra
+- Studying in IIT(ISM) Dhanbad / 
+**Home Town** = Jaunpur , Uttar Pradesh , India
 
 
 # Quizzing Website
