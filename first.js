@@ -21,7 +21,7 @@ function check() {
 
     // check if stored data from register-form is equal to data from login form
     if(userName.value == storedName || userPw.value == storedPw) {
-		   window.location.assign("QUIZ.html")
+		   window.location.assign("QUIZ.html");
 		
         alert('You are Logged in');
     }else {
